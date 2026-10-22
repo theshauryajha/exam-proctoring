@@ -31,7 +31,7 @@ Cheating detection (perception) is not implemented yet.
 ```bash
 conda deactivate            # ROS Jazzy needs system Python 3.12, not conda's
 source /opt/ros/jazzy/setup.bash
-cd ~/proctor_ws
+cd ~/exam-proctoring        # the workspace root
 colcon build --symlink-install
 source install/setup.bash
 ```
